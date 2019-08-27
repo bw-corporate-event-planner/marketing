@@ -150,10 +150,26 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .title {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.title h1 {
+  width: 80%;
+  font-family: Lobster;
+  font-size: 6rem;
+  color: white;
+}
 .navigation {
   padding: 25px;
-  border-radius: 0 0 40% 40%;
-  background-color: #7AB900;
+  border-radius: 0 0 50% 50%;
+  background-color: #FF3131;
+  height: 80;
 }
 .navigation .topContent {
   display: flex;
@@ -228,23 +244,8 @@ nav a {
     font-size: 1.2rem;
   }
 }
-@media (max-width: 500px) {
-  .title {
-    width: 100%;
-    padding: 0 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-.title h1 {
-  width: 80%;
-  font-family: Lobster;
-  font-size: 6rem;
-  color: white;
-}
 footer {
-  background: #d5e1df;
+  background: #1e1f28;
   padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 50% 50% 0 0;
@@ -447,120 +448,4 @@ footer p {
     width: 75%;
     margin-left: 15%;
   }
-}
-/*About Us page______________________________________________________________*/
-.aboutUs header {
-  margin: 5% 0;
-  padding: 20px;
-  width: 100%;
-  background: #e60023;
-}
-.aboutUs header div {
-  margin: 0 10%;
-}
-.aboutUs header h2 {
-  color: white;
-  font-family: Lobster;
-  font-size: 5.5rem;
-}
-@media (max-width: 350px) {
-  .aboutUs header h2 {
-    text-align: center;
-  }
-}
-.aboutUs header p {
-  color: white;
-}
-@media (max-width: 350px) {
-  .aboutUs header p {
-    text-align: center;
-  }
-}
-.aboutUs .teamMember {
-  width: 90%;
-  margin: 5%;
-}
-.aboutUs .teamMember .info {
-  width: 100%;
-  text-align: center;
-  padding: 5px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-@media (max-width: 500px) {
-  .aboutUs .teamMember .info {
-    flex-direction: column;
-  }
-}
-.aboutUs .teamMember .info img {
-  width: 30%;
-  margin: 0 3%;
-  border-radius: 150px;
-}
-@media (max-width: 500px) {
-  .aboutUs .teamMember .info img {
-    width: 80%;
-    margin-bottom: 5%;
-  }
-}
-.aboutUs .teamMember .info .text {
-  width: 45%;
-  margin: 0 3%;
-  color: black;
-}
-@media (max-width: 500px) {
-  .aboutUs .teamMember .info .text {
-    width: 75%;
-  }
-}
-.aboutUs .teamMember .info .text h2 {
-  color: #e60023;
-}
-.aboutUs .teamMember .info .text a {
-  color: black;
-}
-.aboutUs .teamMember2 {
-  width: 90%;
-  margin: 5%;
-}
-.aboutUs .teamMember2 .info {
-  width: 100%;
-  text-align: center;
-  padding: 5px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-@media (max-width: 500px) {
-  .aboutUs .teamMember2 .info {
-    flex-direction: column-reverse;
-  }
-}
-.aboutUs .teamMember2 .info img {
-  width: 30%;
-  margin: 0 3%;
-  border-radius: 150px;
-}
-@media (max-width: 500px) {
-  .aboutUs .teamMember2 .info img {
-    width: 80%;
-    margin-bottom: 5%;
-  }
-}
-.aboutUs .teamMember2 .info .text {
-  width: 45%;
-  margin: 0 3%;
-  color: black;
-}
-@media (max-width: 500px) {
-  .aboutUs .teamMember2 .info .text {
-    width: 75%;
-  }
-}
-.aboutUs .teamMember2 .info .text h2 {
-  color: #e60023;
-}
-.aboutUs .teamMember2 .info .text a {
-  color: black;
 }
