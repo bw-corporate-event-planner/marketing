@@ -1,0 +1,351 @@
+@import "variable.less";
+@import "mixin.less";
+@import "reset.less";
+@import "global.less";
+@import "navigation.less";
+@import "footer.less";
+@import "home-page.less";
+
+
+
+
+
+
+
+@media @phone {
+  .title {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.title h1 {
+  width: 80%;
+  font-family: Lobster;
+  font-size: 6rem;
+  color: white;
+}
+
+footer {
+  background: #d5e1df;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 50% 50% 0 0;
+}
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1%;
+}
+@media (max-width:800px) {
+  footer nav {
+    font-size: 3rem;
+  }
+  footer nav .fas {
+    display: none;
+  }
+  footer nav .far {
+    display: none;
+  }
+}
+@media @phone {
+  footer nav {
+    font-size: 1.5rem;
+  }
+  footer nav .fas {
+    display: none;
+  }
+  footer nav .far {
+    display: none;
+  }
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.Content .Content1 {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 650px) {
+  .Content .Content1 {
+    text-align: center;
+  }
+}
+@media @phone {
+  .Content .Content1 {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+}
+.Content .Content1 .picture {
+  width: 70%;
+  margin: 10%;
+  border-radius: 200px;
+}
+@media (max-width: 650px) {
+  .Content .Content1 .picture {
+    display: none;
+  }
+}
+@media @phone {
+  .Content .Content1 .picture {
+    display: none;
+  }
+}
+.Content .Content1 .text {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 5% 5% 0;
+  color: black;
+}
+@media (max-width:800px) {
+  .Content .Content1 .text {
+    width: 80%;
+  }
+}
+@media @phone {
+  .Content .Content1 .text h1 {
+    text-align: center;
+  }
+}
+.Content .Content1 img {
+  width: 75%;
+  margin: 5% 10%;
+}
+@media @phone {
+  .Content .Content1 img {
+    width: 75%;
+    margin-left: 15%;
+  }
+}
+.Content .Content2 {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+@media @phone {
+  .Content .Content2 {
+    flex-direction: column-reverse;
+    margin-left: 5%;
+    margin-top: -10%;
+  }
+}
+.Content .Content2 .picture {
+  width: 70%;
+  margin: 10%;
+  border-radius: 200px;
+}
+@media (max-width: 650px) {
+  .Content .Content2 .picture {
+    display: none;
+  }
+}
+@media (max-width:800px) {
+  .Content .Content2 .picture {
+    width: 90%;
+  }
+}
+@media @phone {
+  .Content .Content2 .picture {
+    width: 90%;
+    margin-left: 7%;
+    display: none;
+  }
+}
+.Content .Content2 .text {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 5% 5% 5%;
+  color: black;
+}
+@media (max-width:800px) {
+  .Content .Content2 .text {
+    width: 80%;
+  }
+}
+.Content .Content2 img {
+  width: 100%;
+  margin: 5% 10% 5% 0;
+}
+.Content .Content3 {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 650px) {
+  .Content .Content3 {
+    text-align: center;
+  }
+}
+@media @phone {
+  .Content .Content3 {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+}
+.Content .Content3 .picture {
+  width: 60%;
+  margin: 10%;
+  border-radius: 200px;
+}
+@media (max-width: 650px) {
+  .Content .Content3 .picture {
+    display: none;
+  }
+}
+@media @phone {
+  .Content .Content3 .picture {
+    display: none;
+  }
+}
+.Content .Content3 .text {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 5% 5% 0;
+  color: black;
+}
+@media @phone {
+  .Content .Content3 .text h1 {
+    text-align: center;
+  }
+}
+.Content .Content3 img {
+  width: 75%;
+  margin: 5% 10%;
+}
+@media @phone {
+  .Content .Content3 img {
+    width: 75%;
+    margin-left: 15%;
+  }
+}
+/*About Us page______________________________________________________________*/
+.aboutUs header {
+  margin: 5% 0;
+  padding: 20px;
+  width: 100%;
+  background: #e60023;
+}
+.aboutUs header div {
+  margin: 0 10%;
+}
+.aboutUs header h2 {
+  color: white;
+  font-family: Lobster;
+  font-size: 5.5rem;
+}
+@media (max-width: 350px) {
+  .aboutUs header h2 {
+    text-align: center;
+  }
+}
+.aboutUs header p {
+  color: white;
+}
+@media (max-width: 350px) {
+  .aboutUs header p {
+    text-align: center;
+  }
+}
+.aboutUs .teamMember {
+  width: 90%;
+  margin: 5%;
+}
+.aboutUs .teamMember .info {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media @phone {
+  .aboutUs .teamMember .info {
+    flex-direction: column;
+  }
+}
+.aboutUs .teamMember .info img {
+  width: 30%;
+  margin: 0 3%;
+  border-radius: 150px;
+}
+@media @phone {
+  .aboutUs .teamMember .info img {
+    width: 80%;
+    margin-bottom: 5%;
+  }
+}
+.aboutUs .teamMember .info .text {
+  width: 45%;
+  margin: 0 3%;
+  color: black;
+}
+@media @phone {
+  .aboutUs .teamMember .info .text {
+    width: 75%;
+  }
+}
+.aboutUs .teamMember .info .text h2 {
+  color: #e60023;
+}
+.aboutUs .teamMember .info .text a {
+  color: black;
+}
+.aboutUs .teamMember2 {
+  width: 90%;
+  margin: 5%;
+}
+.aboutUs .teamMember2 .info {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media @phone {
+  .aboutUs .teamMember2 .info {
+    flex-direction: column-reverse;
+  }
+}
+.aboutUs .teamMember2 .info img {
+  width: 30%;
+  margin: 0 3%;
+  border-radius: 150px;
+}
+@media @phone {
+  .aboutUs .teamMember2 .info img {
+    width: 80%;
+    margin-bottom: 5%;
+  }
+}
+.aboutUs .teamMember2 .info .text {
+  width: 45%;
+  margin: 0 3%;
+  color: black;
+}
+@media @phone {
+  .aboutUs .teamMember2 .info .text {
+    width: 75%;
+  }
+}
+.aboutUs .teamMember2 .info .text h2 {
+  color: #e60023;
+}
+.aboutUs .teamMember2 .info .text a {
+  color: black;
+}
