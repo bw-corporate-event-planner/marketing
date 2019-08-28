@@ -167,7 +167,7 @@ p {
 }
 .aboutUs header {
   margin: 5% 0;
-  padding: 20px;
+  padding: 10px;
   width: 100%;
   background: #186681;
 }
@@ -231,7 +231,7 @@ p {
   }
 }
 .aboutUs .teamMember .info .text h2 {
-  color: #e60023;
+  color: #23293b;
 }
 .aboutUs .teamMember .info .text a {
   color: black;
@@ -275,7 +275,7 @@ p {
   }
 }
 .aboutUs .teamMember2 .info .text h2 {
-  color: #e60023;
+  color: #23293B;
 }
 .aboutUs .teamMember2 .info .text a {
   color: black;
